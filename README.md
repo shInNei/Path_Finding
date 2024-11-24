@@ -1,35 +1,16 @@
-# 🚀 Pathfinding Visualization with A* Algorithm
-
-![Pathfinding Visualization](https://your-image-link-or-gif-url.gif)  
-*Visualize shortest paths with the powerful A* algorithm!*
-
+# 🚀 Pathfinding Visualization and Implementation
+This project demonstrates the implementation and visualization of various pathfinding algorithms. Starting as a small project for the Introduction to AI course at Ho Chi Minh University of Technology (HCMUT), it has now expanded to include multiple algorithms as an extension of the original project.
+The visualizations leverage Pygame, inspired by [this excellent tutorial.](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=199s)
+### ✅ Implemented Algorithms:
+- [x] **A***: Shortest pathfinding with heuristic optimization.
+### 🚧 In Progress:
+- [ ] **Dijkstra's Algorithm**: Shortest path for weighted graphs (non-negative weights).
+- [ ] **Breadth-First Search (BFS)**: Guaranteed shortest path for unweighted graphs.
+- [ ] **Depth-First Search (DFS)**: Not guaranteed to find the shortest path.
+- [ ] **Bellman-Ford Algorithm**: Handles graphs with negative weights.
+- [ ] **Floyd-Warshall Algorithm**: All-pairs shortest paths.
 ## 📖 About
-
-This project implements the **A* (A-Star)** pathfinding algorithm, a popular heuristic-based approach for finding the shortest path between two points. The tool includes an interactive visualization to help users understand how the algorithm explores nodes and evaluates paths.
-
-### ✨ Features
-- Interactive grid-based visualization.
-- Supports diagonal and straight-line movement.
-- Adjustable heuristic (e.g., Manhattan, Euclidean).
-- Step-by-step demonstration of pathfinding.
-- User-friendly GUI.
-
----
-
-## 🖥️ Demo
-
-### Example Scenarios:
-- **Obstacle Navigation**:
-  > Finds the optimal route around obstacles.
-- **Dynamic Adjustments**:
-  > Add or remove barriers dynamically and re-run the algorithm.
-
----
-
-## 📚 Algorithm Overview
-
-The **A*** algorithm combines:
-1. **Cost from Start (g):** Distance from the start node to the current node.
-2. **Heuristic (h):** Estimated distance from the current node to the target node.
-
-### Formula:
+This project was initially created as part of a coursework assignment for the Introduction to AI course at HCMUT. The original focus was implementing the A* algorithm for pathfinding, along with a basic visualization using Pygame. Inspired by the engaging visual explanation in [Tech with Tim's tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=199s), I decided to take the project further by adding support for more algorithms and improving the overall functionality.
+## 🎯 Goals of the Project
+## 
+## 📫 Contact
