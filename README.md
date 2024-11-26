@@ -12,6 +12,9 @@ The visualizations leverage Pygame, inspired by [this excellent tutorial.](https
 ## 📖 About
 This project was initially created as part of a coursework assignment for the Introduction to AI course at HCMUT. The original focus was implementing the A* algorithm for pathfinding, along with a basic visualization using Pygame. Inspired by the engaging visual explanation in [Tech with Tim's tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=199s), I decided to take the project further by adding support for more algorithms and improving the overall functionality.
 ## 🎯 Goals of the Project
+The main goals of this project are:
+- To implement and visualize a variety of pathfinding algorithms.
+- To provide a clear understanding of how each algorithm works, using visual representation.
 ## 
 ## 📫 Contact
 My Email: dst15092004@gmail.com
