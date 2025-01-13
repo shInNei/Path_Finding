@@ -3,8 +3,8 @@ This project demonstrates the implementation and visualization of various pathfi
 The visualizations leverage Pygame, inspired by [this excellent tutorial.](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=199s)
 ### ✅ Implemented Algorithms:
 - [x] **A***: Shortest pathfinding with heuristic optimization.
+- [x] **Dijkstra's Algorithm**: Shortest path for weighted graphs (non-negative weights).
 ### 🚧 In Progress:
-- [ ] **Dijkstra's Algorithm**: Shortest path for weighted graphs (non-negative weights).
 - [ ] **Breadth-First Search (BFS)**: Guaranteed shortest path for unweighted graphs.
 - [ ] **Depth-First Search (DFS)**: Not guaranteed to find the shortest path.
 - [ ] **Bellman-Ford Algorithm**: Handles graphs with negative weights.
