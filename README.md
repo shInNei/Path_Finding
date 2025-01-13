@@ -7,8 +7,6 @@ The visualizations leverage Pygame, inspired by [this excellent tutorial.](https
 ### 🚧 In Progress:
 - [ ] **Breadth-First Search (BFS)**: Guaranteed shortest path for unweighted graphs.
 - [ ] **Depth-First Search (DFS)**: Not guaranteed to find the shortest path.
-- [ ] **Bellman-Ford Algorithm**: Handles graphs with negative weights.
-- [ ] **Floyd-Warshall Algorithm**: All-pairs shortest paths.
 ## 📖 About
 This project was initially created as part of a coursework assignment for the Introduction to AI course at HCMUT. The original focus was implementing the A* algorithm for pathfinding, along with a basic visualization using Pygame. Inspired by the engaging visual explanation in [Tech with Tim's tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&t=199s), I decided to take the project further by adding support for more algorithms and improving the overall functionality.
 ## 🎯 Goals of the Project
