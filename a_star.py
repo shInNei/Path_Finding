@@ -1,8 +1,10 @@
 import pygame
 from queue import PriorityQueue
 import random
+import subwindow
+import threading
 # PYGAME VARIABLE
-WIDTH = 800
+WIDTH = 700
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("A* Path Finding Algorithm")
 
@@ -143,7 +145,7 @@ Reconstructs the path by following each node's predecessor until reaching the st
 
 def algorithm(draw, grid, start, end):
 	"""
-A* Path Finding Algorithm
+	A* Path Finding Algorithm
 	"""
 	# Initialize priority queue and tracking variables
 	count = 0
@@ -277,6 +279,8 @@ def main(win, width):
 	random_mode = False
 
 	run = True
+	threading.Thread(target=subwindow.show_commands, daemon=True).start()
+
 	while run:
 		draw(win, grid, ROWS, width)
 		for event in pygame.event.get():
